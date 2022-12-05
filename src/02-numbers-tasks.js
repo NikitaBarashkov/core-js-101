@@ -190,6 +190,17 @@ function getParallelepipedDiagonal(a, b, c) {
  */
 function roundToPowerOfTen(/* num, pow */) {
   throw new Error('Not implemented');
+  // if (pow === 0) return num;
+  // const arr = String(num).split('');
+
+
+  // if (arr[pow] < 5) {
+  //   arr.splice(pow - 1, arr.length - (arr.length - pow), 0);
+  // } else {
+  //   arr.splice(pow - 1, 2, arr[pow - 1] + 1, 0);
+  // }
+  // // return arr;
+  // return Number(arr.reverse().join(''));
 }
 
 /**
